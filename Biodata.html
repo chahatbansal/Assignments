@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Form</title>
+</head>
+<body>
+    <h1>
+        My Bio Data
+    </h1>
+    <fieldset>
+    <legend>Personal Information</legend>    
+    <label for="Firstname">FirstName:</label>
+    <input type="text" placeholder="First Name" id="Firstname">
+    <label for="Lastname">LastName:</label>
+    <input type="text" placeholder="Last Name" id="Lastname">
+    <br>
+    <br>
+    <label for="male">Male:</label>
+    <input type="radio" name="user" id="male" >
+    <label for="female">Female:</label>
+    <input type="radio" name="user" id="female">
+    <label for="others">Others:</label>
+    <input type="radio" name="user" id="others">
+    <br>
+    <br>
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" placeholder="mm/dd/yyyy">
+    <br>
+    <br>
+    <label for="emailid">E-Mail ID:</label>
+    <input type="email" placeholder="Enter your email" id="emailid">
+    <br>
+    <br>
+    <label for="telephone">Phone no. </label>
+    <input type="tel" maxlength="10" id="telephone" placeholder="+91">
+    <br>
+    <br>
+    <label for="Height">Height:</label>
+    <input type="number" placeholder="Height in Feet" id="Height">
+    <br>
+    <br>
+</fieldset>
+<fieldset>
+    <legend>Education</legend>
+    <label for="schoolname">School Name:</label>
+    <input type="text" placeholder="School Name" id="schoolname">
+    <br>
+    <br>
+    <label for="class">Class:</label>
+    <input type="number" placeholder="Enter class" id="class">
+    <br>
+    <br>
+    <label for="Stream">Stream:</label>
+    <select>
+        <option>Stream</option>
+        <option>PCM</option>
+        <option>PCB</option>
+        <option>Commerce</option>
+        <option>Arts</option>
+    </select>
+    <br>
+    <br>
+    <label for="marksheet">Marksheet</label>
+    <input type="file" id="marksheet">
+    <br>
+    <br>
+    
+</fieldset>
+    <br>
+    <button>Submit</button> 
+</body>
+</html>
